@@ -1,0 +1,162 @@
+::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+} 
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 10% 80% 8%;
+    grid-template-areas: 
+    'header header header'
+    'l_aside main r_aside'
+    'l_footer main r_footer';
+}
+header, main, footer{
+    display: grid;
+}
+header{
+    grid-area: header;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: radial-gradient(290% 290.78% at 50.00% 48.09%, #010101 0%, rgba(1, 1, 1, 0.00) 100%);
+    margin: 0;
+    height: 100vh;
+}
+
+.banniere{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.perso2{
+    width: 400px;
+   position: absolute;
+   top: 10px;
+   left: -120px;
+}
+main{
+    grid-area: main;
+    position: relative;
+    
+}
+.colonne1{
+    background: radial-gradient(225.72% 122.87% at 47.48% 29.89%, #F5BA30 37.43%, rgba(245, 186, 48, 0.00) 100%);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   
+    
+}
+ .colonne2{
+    position: absolute;
+    width: 30px;
+    height: 450px;
+    background-color: white;
+    bottom: 0px;
+    right: 20px;
+}
+.colonne3{
+    position: absolute;
+    width: 25px;
+    height: 300px;
+    background-color: white;
+    bottom: 0px;
+    right: 60px;
+}
+.asso{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    white-space: nowrap;
+    position: absolute;
+    transform: rotate(-90deg);
+    margin: 0;
+    right: -20px;
+    top: 490px;
+    
+
+}
+
+.contact{
+    grid-area: l_aside;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 200px;
+}
+
+.social{
+    grid-area: r_aside;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 200px;
+
+}
+.house, .mobile, .mail{
+    padding: 10px 5px;
+    width: 50px;
+}
+.house{
+    width: 50px;
+}
+.mobile{
+    width: 50px;
+}
+.mail{
+    width: 35px; 
+}
+
+.facebook, .twitter, .instagram{
+    width: 30px;
+    padding: 10px 5px;
+}
+
+.cours, .evenement{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    color: white;
+}
+.school{
+    grid-area: r_footer;
+    position: relative;
+}
+.cours{
+    position: absolute;
+    text-decoration: none;
+    top: 20px;
+    left: 15px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(1, 1, 1, 0.20);
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.even{
+    grid-area: l_footer;
+    position: relative;
+}
+.evenement{
+    position: absolute;
+    text-decoration: none;
+    top: 20px;
+    left: 5px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(1, 1, 1, 0.20);
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+   
+}

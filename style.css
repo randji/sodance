@@ -150,11 +150,11 @@ main{
     padding: 10px 5px;
     
 }
+
+/* animation icone */
 .house{
     width: 50px;
     position: absolute;
-    bottom: 110px;
-    left: 0px;
     opacity: 0;
     animation: droite 2s ease-out 6s forwards;
 }
@@ -164,14 +164,51 @@ main{
         opacity: 100%;
     }   
 }
+.adresse{
+    color: white;
+    position: absolute;
+    padding: 16px;
+    text-decoration: none;
+}
+/* animation rotation house/adresse */
 
+.localisation{
+    background-color: transparent;
+    perspective: 1000px;
+    width: 124px;
+    height: 86px;
+    position: absolute;
+    bottom: 110px;
+    left: 0px;
+}
+.inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.localisation:hover .inner{
+    transform: rotateY(180deg);
+}
+
+.house, .adresse{
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.adresse{
+    transform: rotateY(180deg);
+    text-align: center;
+}
+
+/* animation icone */
 .mobile{
     width: 50px;
     position: absolute;
-    bottom: 46px;
-    left: 1px;
     opacity: 0;
     animation: droite2 2s ease-out 6.5s forwards;
+    padding: 0;
 
 }
 @keyframes droite2 {
@@ -181,11 +218,47 @@ main{
     }
     
 }
+
+/* animation rotation mobile/numero */
+
+.tel{
+    background-color: transparent;
+    width: 124px;
+    height: 90px;
+    perspective: 1000px;
+    bottom: 26px;
+    left: 4px;
+    position: absolute;
+}
+.inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.tel:hover .inner{
+    transform: rotateY(180deg);
+}
+.mobile, .numero{
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.numero{
+    transform: rotateY(180deg);
+    text-decoration: none;
+    color: white;
+    top: 15px;
+    left: 2px;
+    text-align: center;
+
+}
+
+
 .mail{
     width: 35px;
     position: absolute;
-    bottom: 0px;
-    left: 1px;
     opacity: 0;
     animation: droite3 2s ease-out 7s forwards;
 }
@@ -196,6 +269,32 @@ main{
         opacity: 100%;
     }
     
+}
+/* animation rotation mail/email */
+.email{
+    background-color: transparent;
+    width: 124px;
+    height: 50px;
+    perspective: 1000px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.email:hover .inner{
+    transform: rotateY(180deg);
+}
+.mail, .adrmail{
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.adrmail{
+    transform: rotateY(180deg);
+    text-decoration: none;
+    color: white;
+    top: 15px;
+
 }
 
 .social{

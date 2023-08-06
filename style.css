@@ -223,11 +223,10 @@ main{
 
 .tel{
     background-color: transparent;
-    width: 124px;
+    width: 110px;
     height: 90px;
     perspective: 1000px;
     bottom: 26px;
-    left: 4px;
     position: absolute;
 }
 .inner{
@@ -250,8 +249,8 @@ main{
     text-decoration: none;
     color: white;
     top: 15px;
-    left: 2px;
-    text-align: center;
+    left: 0px;
+   
 
 }
 

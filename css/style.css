@@ -7,7 +7,7 @@
 .grid-container{
     display: grid;
     grid-template-columns: 30% 40% 30%;
-    grid-template-rows: 10% 80% 8%;
+    grid-template-rows: 10% 80% 10%;
     grid-template-areas: 
     'header header header'
     'l_aside main r_aside'
@@ -32,7 +32,7 @@ body{
 .banniere{
     color: white;
     font-family: 'Permanent Marker', cursive;
-    font-size: 60px;
+    font-size: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,15 +55,15 @@ body{
 main{
     grid-area: main;
     position: relative;
-    width: 165px;
-    height: 805px;
-    bottom: 5px;
+    width: 100%;
+    height: 100%;
+    
 }
 .colonne1{
     display: flex;
     background: radial-gradient(225.72% 122.87% at 47.48% 29.89%, #F5BA30 37.43%, rgba(245, 186, 48, 0.00) 100%);
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 165px;
+    width: 100%;
     height: 5px;
     animation: expand 3.5s ease-out forwards;
 }
@@ -71,22 +71,22 @@ main{
 
  .colonne2{
     position: absolute;
-    width: 30px;
+    width: 20%;
     height: 0px;
     background-color: white;
     bottom: 0px;
-    right: 20px;
+    right: 10%;
     animation:  4s ease-out 3s forwards expand2;
 }
 
 
 .colonne3{
     position: absolute;
-    width: 25px;
+    width: 18%;
     height: 0px;
     background-color: white;
     bottom: 0px;
-    right: 60px;
+    right: 40%;
     animation:  4s ease-out 3s forwards expand3;
 }
 
@@ -96,9 +96,9 @@ main{
     white-space: nowrap;
     position: absolute;
     transform: rotate(-90deg);
-    margin: 0;
-    right: -20px;
-    top: 490px;
+    
+    right: -15%;
+    top: 67%;
     opacity: 0;
     animation: titre 3s ease-out 7.8s forwards;
 }
@@ -278,7 +278,7 @@ main{
     bottom: 7px;
     right: 0;
     opacity: 0;
-    animation: gauche3 2s ease-out 7s forwards;
+    animation: gauche 2s ease-out 7s forwards;
 
 }
 

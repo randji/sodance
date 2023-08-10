@@ -41,11 +41,7 @@ body{
     animation: titre 3s ease-out 7.5s forwards;
 
 }
-@keyframes titre {
-    to{
-        opacity: 100%;
-    }   
-}
+
 .perso2{
     width: 400px;
    position: absolute;
@@ -55,11 +51,7 @@ body{
    animation: perso 1.5s ease-out forwards;
 
 }
-@keyframes perso {
-    to{
-        opacity: 100%;
-    }
-} 
+
 main{
     grid-area: main;
     position: relative;
@@ -76,15 +68,7 @@ main{
     animation: expand 3.5s ease-out forwards;
 }
 
-@keyframes expand {
-    0%{
-        height: 0;
-    }
-    100%{
-        height: 805px;
-    }
-    
-}
+
  .colonne2{
     position: absolute;
     width: 30px;
@@ -95,14 +79,7 @@ main{
     animation:  4s ease-out 3s forwards expand2;
 }
 
-@keyframes expand2 {
-    from{
-        height: 0;
-    }
-    to{
-        height: 450px;
-    }
-}
+
 .colonne3{
     position: absolute;
     width: 25px;
@@ -112,14 +89,7 @@ main{
     right: 60px;
     animation:  4s ease-out 3s forwards expand3;
 }
-@keyframes expand3 {
-    from{
-        height: 0;
-    }
-    to{
-        height: 300px;
-    }
-}
+
 .asso{
     color: white;
     font-family: 'Permanent Marker', cursive;
@@ -132,11 +102,7 @@ main{
     opacity: 0;
     animation: titre 3s ease-out 7.8s forwards;
 }
-@keyframes titre {
-    to{
-        opacity: 100%;
-    }   
-}
+
 
 .contact{
     grid-area: l_aside;
@@ -158,12 +124,7 @@ main{
     opacity: 0;
     animation: droite 2s ease-out 6s forwards;
 }
-@keyframes droite {
-    to{
-        transform: translateX(32px);
-        opacity: 100%;
-    }   
-}
+
 .adresse{
     color: white;
     position: absolute;
@@ -211,13 +172,7 @@ main{
     padding: 0;
 
 }
-@keyframes droite2 {
-    to{
-        transform: translateX(32px);
-        opacity: 100%;
-    }
-    
-}
+
 
 /* animation rotation mobile/numero */
 
@@ -227,6 +182,7 @@ main{
     height: 90px;
     perspective: 1000px;
     bottom: 26px;
+    left: 5px;
     position: absolute;
 }
 .inner{
@@ -262,13 +218,6 @@ main{
     animation: droite3 2s ease-out 7s forwards;
 }
 
-@keyframes droite3 {
-    to{
-        transform: translateX(39px);
-        opacity: 100%;
-    }
-    
-}
 /* animation rotation mail/email */
 .email{
     background-color: transparent;
@@ -309,45 +258,30 @@ main{
 }
 .facebook{
     position: absolute;
-    bottom: 120px;
+    bottom: 140px;
     right: 0;
     opacity: 0;
     animation: gauche 2s ease-out 6s forwards;
 }
-@keyframes gauche {
-    to{
-        transform: translateX(-45px);
-        opacity: 100%;
-    }   
-}
+
 .twitter{
     position: absolute;
-    bottom: 60px;
+    bottom: 70px;
     right: 0;
     opacity: 0;
     animation: gauche2 2s ease-out 6.5s forwards;
 
 }
-@keyframes gauche2 {
-    to{
-        transform: translateX(-45px);
-        opacity: 100%;
-    }   
-}
+
 .instagram{
     position: absolute;
-    bottom: 5px;
+    bottom: 7px;
     right: 0;
     opacity: 0;
-    animation: gauche2 2s ease-out 7s forwards;
+    animation: gauche3 2s ease-out 7s forwards;
 
 }
-@keyframes gauche2 {
-    to{
-        transform: translateX(-45px);
-        opacity: 100%;
-    }   
-}
+
 
 .cours, .evenement{
     font-family: 'Permanent Marker', cursive;
@@ -357,18 +291,19 @@ main{
 .school{
     grid-area: r_footer;
     position: relative;
+    perspective: 1000px;
 }
 .cours{
     position: absolute;
     text-decoration: none;
     top: 20px;
     left: 25px;
-    border-radius: 10px;
+    /* border-radius: 10px;
     border: 1px solid #FFF;
-    background: rgba(1, 1, 1, 0.20);
+    background: rgba(1, 1, 1, 0.20); */
     padding-left: 5px;
     padding-right: 5px;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); */
     font-size: 17px;
     opacity: 0;
     animation: titre 3s ease-out 7.8s forwards;
@@ -378,22 +313,27 @@ main{
         opacity: 100%;
     }   
 }
+.cours:hover{
+    transform: translateZ(20px);
+    cursor: pointer;
+}
 
 .even{
     grid-area: l_footer;
     position: relative;
+    perspective: 1000px;
 }
 .evenement{
     position: absolute;
     text-decoration: none;
     top: 20px;
     left: 5px;
-    border-radius: 10px;
-    border: 1px solid #FFF;
-    background: rgba(1, 1, 1, 0.20);
+    /* border-radius: 10px;
+    border: 1px solid #FFF; */
+    /* background: rgba(1, 1, 1, 0.20); */
     padding-left: 5px;
     padding-right: 5px;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); */
     font-size: 17px;
     opacity: 0;
     animation: titre 3s ease-out 7.8s forwards;
@@ -402,4 +342,8 @@ main{
     to{
         opacity: 100%;
     }   
+}
+.evenement:hover{
+    transform: translateZ(20px);
+    cursor: pointer;
 }

@@ -1,0 +1,96 @@
+
+/* animation page home */
+
+@keyframes titre {
+    to{
+        opacity: 100%;
+    }   
+}
+
+@keyframes perso {
+    to{
+        opacity: 100%;
+    }
+} 
+
+    /* animation colonne 1, 2 et 3 */
+@keyframes expand {
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 805px;
+    }
+    
+}
+
+@keyframes expand2 {
+    from{
+        height: 0;
+    }
+    to{
+        height: 450px;
+    }
+}
+
+@keyframes expand3 {
+    from{
+        height: 0;
+    }
+    to{
+        height: 300px;
+    }
+}
+
+/* animation intitulé de l'asso */
+
+@keyframes titre {
+    to{
+        opacity: 100%;
+    }   
+}
+
+/* animation icone à gauche*/
+@keyframes droite {
+    to{
+        transform: translateX(32px);
+        opacity: 100%;
+    }   
+}
+
+@keyframes droite2 {
+    to{
+        transform: translateX(32px);
+        opacity: 100%;
+    }
+    
+}
+
+@keyframes droite3 {
+    to{
+        transform: translateX(39px);
+        opacity: 100%;
+    }
+    
+}
+
+/* animation icone à droite */
+@keyframes gauche {
+    to{
+        transform: translateX(-45px);
+        opacity: 100%;
+    }   
+}
+@keyframes gauche2 {
+    to{
+        transform: translateX(-45px);
+        opacity: 100%;
+    }   
+}
+@keyframes gauche3 {
+    to{
+        transform: translateX(-45px);
+        opacity: 100%;
+    }   
+}
+

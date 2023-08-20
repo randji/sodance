@@ -3,3 +3,59 @@
         width: 500px;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 10% 70% 20%;
+        grid-template-rows: 40% 40% 20%;
+        grid-template-areas: 
+        'G_header header social'
+        'l_main main main'
+        'contact footer r_footer';
+    }
+    .social{
+        grid-area: social;
+        margin-bottom: 10px;
+    }
+    .contact{
+        grid-area: contact;
+        margin-bottom: 10px;
+    }
+    .school, .even{
+        grid-area: r_footer;
+        display: grid;
+    }
+    .asso{
+        grid-area: main;
+        rotate: 90deg;
+        margin: 0;
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+    main{
+        display: grid;
+    }
+    .colonne1{
+    
+    }
+    .colonne2{
+        position: absolute;
+        width: 1px;
+        height: 20%;
+        background-color: white;
+        bottom: 150px;
+        right: 0;
+        animation:  4s ease-out 3s forwards expand2;
+    }
+    @keyframes expand2 {
+        from{
+            width: 1px;
+        }
+        to{
+            width: 56%;
+        }
+    }
+    
+}

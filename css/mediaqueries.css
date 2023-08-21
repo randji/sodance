@@ -14,6 +14,13 @@
         'l_main main main'
         'contact footer r_footer';
     }
+    header{
+        grid-area: header;
+    }
+    .banniere{
+        font-size: 120px;
+        justify-content: end;
+    }
     .social{
         grid-area: social;
         margin-bottom: 10px;
@@ -24,38 +31,95 @@
     }
     .school, .even{
         grid-area: r_footer;
-        display: grid;
+        display: inline;
+        position: relative;
+    }
+    .cours{
+        position: absolute;
+        bottom: 0;
+        height: 50px;
+    }
+    .titreAsso{
+        grid-area: footer;
+        position: relative;
+        width: 450px;
+        height: 80px;
+        bottom: 0;
     }
     .asso{
-        grid-area: main;
+        /* grid-area: footer; */
         rotate: 90deg;
+        font-size: 30px;
         margin: 0;
-        top: 0;
-        right: 0;
         position: absolute;
+        right: 0;
+        justify-content: center;
+        align-items: end;
+       
     }
     main{
-        display: grid;
+        grid-area: main;
+        position: relative;
+        }    
+    .perso2{
+        position: absolute;
+        width: 600px;
+        top: -300px;
     }
     .colonne1{
     
     }
     .colonne2{
         position: absolute;
-        width: 1px;
-        height: 20%;
+        width: 5px;
+        height: 50px;
+        background-color: white;
+        bottom: 250px;
+        right: 0;
+        opacity: 0;
+        
+        animation:  4s ease-out 3s forwards expand4;
+    }
+    @keyframes expand4 {
+        from{
+            opacity: 0;
+            right: 0;
+            transform: scalex(0);
+            transform-origin: right;
+        }
+        to{
+        transform-origin: right;
+        transform: scaleX(200);
+        /* transition: transform 5s;
+        transition-delay: 4s; */
+        opacity: 100%; 
+        }
+    } 
+    
+    .colonne3{
+        position: absolute;
+        width: 5px;
+        height: 60px;
         background-color: white;
         bottom: 150px;
         right: 0;
-        animation:  4s ease-out 3s forwards expand2;
+        opacity: 0;
+        
+        animation:  4s ease-out 3s forwards expand5;
     }
-    @keyframes expand2 {
+    @keyframes expand5 {
         from{
-            width: 1px;
+            opacity: 0;
+            right: 0;
+            transform: scalex(0);
+            transform-origin: right;
         }
         to{
-            width: 56%;
+            transform-origin: right;
+        transform: scaleX(250);
+        /* transition: transform 5s;
+        transition-delay: 4s; */
+        opacity: 100%; 
         }
-    }
-    
+    } 
 }

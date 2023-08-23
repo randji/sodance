@@ -29,21 +29,46 @@
         grid-area: contact;
         margin-bottom: 10px;
     }
+
     .school, .even{
         grid-area: r_footer;
-        display: inline;
         position: relative;
+        
+        
     }
     .cours{
+        font-size: 40px;
         position: absolute;
-        bottom: 0;
         height: 50px;
+        width: 150px;
+        height: 50px;
+        left: auto;s
+        right: 25px;
+        top: auto;
+        bottom: 20px;
+    }
+    .cours:before{
+        content: "";
+        border-radius: 50px;
+        transform: scaleX(0);
+        transition: transform 0.2s linear;
+    }
+    .cours:hover:before{
+        transform: scaleX(1);
+    }
+    .evenement{
+        font-size: 40px;
+        left: 0;
+        width: 200px;
+        height: 50px;
+        
     }
     .titreAsso{
         grid-area: footer;
         position: relative;
         width: 450px;
-        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
         bottom: 0;
     }
     .asso{

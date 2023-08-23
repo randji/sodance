@@ -61,7 +61,6 @@ main{
 .colonne1{
     display: flex;
     background: radial-gradient(225.72% 122.87% at 47.48% 29.89%, #F5BA30 37.43%, rgba(245, 186, 48, 0.00) 100%);
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 100%;
     height: 5px;
     animation: expand 3.5s ease-out forwards;
@@ -277,7 +276,6 @@ main{
 
 }
 
-
 .cours, .evenement{
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
@@ -293,23 +291,15 @@ main{
     text-decoration: none;
     top: 20px;
     left: 25px;
-    /* border-radius: 10px;
-    border: 1px solid #FFF;
-    background: rgba(1, 1, 1, 0.20); */
     padding-left: 5px;
     padding-right: 5px;
-    /* box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); */
     font-size: 17px;
     opacity: 0;
     animation: titre 3s ease-out 7.8s forwards;
     border-bottom: 5px solid transparent;
     transition: border-color 1s;
 }
-@keyframes titre {
-    to{
-        opacity: 100%;
-    }   
-}
+
 .cours:hover{
     border-bottom-color: white;
 }
@@ -317,30 +307,20 @@ main{
 .even{
     grid-area: l_footer;
     position: relative;
-    perspective: 1000px;
 }
 .evenement{
     position: absolute;
     text-decoration: none;
     top: 20px;
     left: 5px;
-    /* border-radius: 10px;
-    border: 1px solid #FFF; */
-    /* background: rgba(1, 1, 1, 0.20); */
-    padding-left: 5px;
-    padding-right: 5px;
-    /* box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); */
     font-size: 17px;
     opacity: 0;
     animation: titre 3s ease-out 7.8s forwards;
     border-bottom: 2px solid transparent;
     transition: border-color 1s;
 }
-@keyframes titre {
-    to{
-        opacity: 100%;
-    }   
-}
+
 .evenement:hover{
     border-bottom-color: white;
 }
+

@@ -1,0 +1,98 @@
+::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+} 
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 30% 50% 20%;
+    grid-template-areas: 
+    'header header header'
+    'debout debout debout'
+    'l_footer footer r_footer';
+}
+
+body{
+    background: radial-gradient(290% 290.78% at 50.00% 48.09%, #010101 0%, rgba(1, 1, 1, 0.00) 100%);
+    margin: 0;
+    height: 100vh;
+}
+header{
+    
+    grid-area: header;
+    position: relative;
+}
+
+.banniere{
+    grid-area: header;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    margin: 0;
+}
+main{
+    grid-area: debout;
+    /* position: relative; */
+    padding: 0;
+}
+.PersoDebout{
+    position: absolute;
+    width: 89px;
+    height: 183px;
+    left: 15px;
+    top: 150px;
+}
+.PersoSol{
+    position: absolute;
+    width: 114px;
+    height: 136px;
+    right: 15px;
+    top: 0px;
+    
+}
+.debout{
+    position: relative;
+    left: 50px;
+    top: 30px;
+       
+}
+.breakdance{
+    position: relative;
+    bottom: 0;
+    right: -100px;
+    
+    
+    
+   
+}
+.debout, .breakdance{
+    background: radial-gradient(225.72% 122.87% at 47.48% 29.89%, #F5BA30 37.43%, rgba(245, 186, 48, 0.00) 100%);
+    border-radius: 10px;
+    width: 250px;
+    height: 120px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 10px;
+    margin-right: 0;
+    padding-right: 0;
+}
+footer{
+    grid-area: footer;
+}
+.evenement, .home{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+.evenement{
+    grid-area: l_footer;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+.home{
+    grid-area: r_footer;
+}

@@ -32,34 +32,23 @@
 
     .school, .even{
         grid-area: r_footer;
-        position: relative;
-        
-        
+        position: relative;  
     }
     .cours{
         font-size: 40px;
         position: absolute;
         height: 50px;
-        width: 150px;
+        width: 130px;
         height: 50px;
-        left: auto;s
-        right: 25px;
+        left: auto;
         top: auto;
         bottom: 20px;
     }
-    .cours:before{
-        content: "";
-        border-radius: 50px;
-        transform: scaleX(0);
-        transition: transform 0.2s linear;
-    }
-    .cours:hover:before{
-        transform: scaleX(1);
-    }
+   
     .evenement{
         font-size: 40px;
         left: 0;
-        width: 200px;
+        width: 250px;
         height: 50px;
         
     }
@@ -72,7 +61,7 @@
         bottom: 0;
     }
     .asso{
-        /* grid-area: footer; */
+
         rotate: 90deg;
         font-size: 30px;
         margin: 0;
@@ -91,9 +80,7 @@
         width: 600px;
         top: -300px;
     }
-    .colonne1{
-    
-    }
+   
     .colonne2{
         position: absolute;
         width: 5px;
@@ -115,8 +102,6 @@
         to{
         transform-origin: right;
         transform: scaleX(200);
-        /* transition: transform 5s;
-        transition-delay: 4s; */
         opacity: 100%; 
         }
     } 
@@ -129,7 +114,6 @@
         bottom: 150px;
         right: 0;
         opacity: 0;
-        
         animation:  4s ease-out 3s forwards expand5;
     }
     @keyframes expand5 {
@@ -142,8 +126,6 @@
         to{
             transform-origin: right;
         transform: scaleX(250);
-        /* transition: transform 5s;
-        transition-delay: 4s; */
         opacity: 100%; 
         }
     } 

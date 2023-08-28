@@ -296,7 +296,7 @@ main{
     font-size: 17px;
     opacity: 0;
     animation: titre 3s ease-out 7.8s forwards;
-    border-bottom: 5px solid transparent;
+    border-bottom: 3px solid transparent;
     transition: border-color 1s;
 }
 
@@ -316,7 +316,7 @@ main{
     font-size: 17px;
     opacity: 0;
     animation: titre 3s ease-out 7.8s forwards;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
     transition: border-color 1s;
 }
 

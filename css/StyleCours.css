@@ -23,9 +23,11 @@ header{
     grid-area: header;
     position: relative;
 }
+.social{
+    display: none;
+}
 
 .banniere{
-    grid-area: header;
     color: white;
     font-family: 'Permanent Marker', cursive;
     font-size: 70px;
@@ -134,4 +136,7 @@ header{
 }
 .spectacle:hover{
     border-bottom-color: white;
+}
+.localisation{
+    display: none;
 }

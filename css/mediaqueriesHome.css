@@ -30,28 +30,33 @@
         margin-bottom: 10px;
     }
 
-    .school, .even{
+    /* .school{
         grid-area: r_footer;
         position: relative;  
-    }
+    } */
+   
     .cours{
+        grid-area: r_footer;
         font-size: 40px;
-        position: absolute;
+        position: relative;
         height: 50px;
         width: 130px;
-        height: 50px;
-        left: auto;
-        top: auto;
-        bottom: 20px;
+        /* left: auto;
+        top: auto; */
+        top: 100px;
+        left: 125px;
     }
    
     .evenement{
+        grid-area: r_footer;
         font-size: 40px;
-        left: 0;
+        position: relative;
+        left: 10px;
+        top: 20px;
         width: 250px;
-        height: 50px;
-        
+        height: 50px;  
     }
+    
     .titreAsso{
         grid-area: footer;
         position: relative;

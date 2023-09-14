@@ -1,0 +1,237 @@
+::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+} 
+.grid_container{
+    background: radial-gradient(290% 290.78% at 50.00% 48.09%, #010101 0%, rgba(1, 1, 1, 0.00) 100%);
+    margin: 0;
+    height: 795px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10% 10% 35% 36% 25% 6%;
+    grid-template-areas: 
+    'header header header'
+    'title title title'
+    'juge juge juge'
+    'localisation localisation localisation'
+    'descrip descrip descrip'
+    'l_footer footer r_footer';
+}
+
+header{
+    grid-area: header;
+    display: grid;
+    
+}
+.banniere{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.titre{
+    grid-area: title;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    grid-area: title;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    position: relative;
+    
+}
+.titre_even{
+    position: absolute;
+    left: 50px;
+    text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.5);
+
+}
+.soulignier{
+    
+    background: radial-gradient(225.72% 122.87% at 47.48% 29.89%, #F5BA30 37.43%, rgba(245, 186, 48, 0.00) 100%);
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 35px;
+    top: 45px;
+}
+.background{
+    background: radial-gradient(225.72% 122.87% at 47.48% 29.89%, #F5BA30 37.43%, rgba(245, 186, 48, 0.00) 100%);
+    width: 340px;
+    height: 60px;
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+    top: 140px;
+}
+.juges{
+    grid-area: juge;
+    display: grid;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.queens, .kota, .dysdys{
+    width: 120px;
+    position: absolute;
+    filter: drop-shadow(0px 10px 7px #000000);
+    -webkit-filter: drop-shadow(0px 7px 7px #000000);
+}
+.queens{
+    top: 10px;
+}
+.dysdys{
+    width: 110px;
+    top: 10px;
+    right: 10px;
+}
+.kota{
+    top: 0px;
+    left: 130px;
+}
+.j1, .j2, .j3, h2{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+}
+.j1{
+    top: 150px;
+    left: 35px;
+}
+.j2{
+    top: 160px;
+    left: 170px;
+}
+.j3{
+    top: 160px;
+    left: 305px; 
+}
+h2{
+    top: 185px;
+    left: 150px;
+
+}
+
+.localisation{
+    grid-area: localisation;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    display: grid;
+    position: relative;
+}
+.montpellier, .paris, .rennes{
+    font-size: 15px;
+}
+.lieu{
+    background: radial-gradient(225.72% 122.87% at 47.48% 29.89%, #F5BA30 37.43%, rgba(245, 186, 48, 0.00) 100%);
+    width: 66%;
+    height: 250px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.carte{
+    width: 200px;
+    position: absolute;
+    left: 165px;
+    top: 25px;
+    filter: drop-shadow(0px 7px 8px #000000);
+    -webkit-filter: drop-shadow(0px 7px 8px #000000);
+}
+.icone1, .icone2, .icone3{
+    width: 15px;
+    position: absolute;
+    
+}
+.icone1{
+    right: 88px;
+    top: 70px;
+}
+.icone2{
+    top: 80px;
+    right: 148px;
+}
+.icone3{
+    top: 190px;
+    right: 70px;
+}
+.descriptif{
+    grid-area: descrip;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.danseurG{
+    position: absolute;
+    width: 120px;
+    left: 5px;
+    top: 0;
+}
+.texte{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.descriptif p{
+    margin: 2px;
+}
+.danseurD{
+    grid-area: Rdescript;
+    position: absolute;
+    width: 120px;
+    left:265px;
+    top: 0;
+}
+.school{
+    grid-area: l_footer;
+}
+.cours{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    
+    width: 50px;
+    height: 22px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border-color 1s;  
+}
+.cours:hover{
+    border-bottom-color: white;
+}
+.acceuil{
+    grid-area: r_footer;
+}
+.home{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    width: 70px;
+    height: 20px;
+    position: relative;
+    top: 15px;
+    left: 40px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border-color 1s;      
+}
+.home:hover{
+    border-bottom-color: white;
+}

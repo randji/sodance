@@ -1,0 +1,21 @@
+@media (min-width: 400px) and (max-width: 600px){
+    .background{
+        width: 380px;
+    }
+    .kota{
+        left: 150px;
+    }
+    .j2{
+        left: 186px;
+    }
+    .j3{
+        top: 153px;
+        left: 340px;
+    }
+    .carte{
+        left: 195px;
+    }
+    .danseurD{
+        left:290px;
+    }
+}

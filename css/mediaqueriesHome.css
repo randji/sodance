@@ -1,3 +1,8 @@
+@media (min-width: 400px) and (max-width: 700px){
+
+}
+
+
 @media screen and (min-width: 700px ) {
     .perso2{
         width: 500px;
@@ -29,11 +34,6 @@
         grid-area: contact;
         margin-bottom: 10px;
     }
-
-    /* .school{
-        grid-area: r_footer;
-        position: relative;  
-    } */
    
     .cours{
         grid-area: r_footer;
@@ -41,8 +41,6 @@
         position: relative;
         height: 50px;
         width: 130px;
-        /* left: auto;
-        top: auto; */
         top: 100px;
         left: 125px;
     }

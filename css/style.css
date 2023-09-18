@@ -26,7 +26,7 @@ header{
 body{
     background: radial-gradient(290% 290.78% at 50.00% 48.09%, #010101 0%, rgba(1, 1, 1, 0.00) 100%);
     margin: 0;
-    height: 100vh;
+    height: 667px;
 }
 
 .banniere{
@@ -42,10 +42,10 @@ body{
 }
 
 .perso2{
-    width: 400px;
+    width: 350px;
    position: absolute;
-   top: 10px;
-   left: -120px;
+   top: 05px;
+   left: -105px;
    opacity: 0;
    animation: perso 1.5s ease-out forwards;
 
@@ -94,11 +94,12 @@ main{
     white-space: nowrap;
     position: absolute;
     transform: rotate(-90deg);
-
-    right: -15%;
-    top: 67%;
+    font-size: 20px;
+    right:89px;
+    top: 75%;
     opacity: 0;
     animation: titre 3s ease-out 7.8s forwards;
+    margin: 0;
 }
 
 
@@ -106,7 +107,7 @@ main{
     grid-area: l_aside;
     display: flex;
     flex-direction: column;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
     position: relative;
 }
 
@@ -243,7 +244,7 @@ main{
     grid-area: r_aside;
     display: flex;
     flex-direction: column;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
     position: relative;
 }
 
@@ -281,18 +282,14 @@ main{
     font-size: 20px;
     color: white;
 }
-/* .school{
-    grid-area: r_footer;
-    position: relative;
-    
-} */
+
 .cours{
     grid-area: r_footer;
     position: relative;
     text-decoration: none;
     top: 20px;
     left: 25px;
-    width: 50px;
+    width: 55px;
     height: 20px;
     font-size: 17px;
     opacity: 0;
@@ -305,15 +302,11 @@ main{
     border-bottom-color: white;
 }
 
-/* .even{
-    grid-area: l_footer;
-    position: relative;
-} */
 .evenement{
     grid-area: l_footer;
     position: relative;
     text-decoration: none;
-    width: 70px;
+    width: 100px;
     height: 20px;
     top: 20px;
     left: 5px;

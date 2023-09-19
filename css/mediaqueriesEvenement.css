@@ -1,4 +1,4 @@
-@media (min-width: 400px) and (max-width: 600px){
+@media (min-width: 400px) and (max-width: 450px){
     .background{
         width: 380px;
     }
@@ -17,5 +17,99 @@
     }
     .danseurD{
         left:290px;
+    }
+}
+@media (min-width: 700px) and (max-width: 1000px){
+    .banniere{
+        font-size: 80px;
+    }
+    .queens, .kota{
+        width: 200px;
+    }
+    .dysdys{
+        width: 180px;
+        top: 0px;
+        right: 50px;
+    }
+    .kota{
+        top: 0px;
+        left: 290px;
+    }
+    .j1{
+        top: 250px;
+        left: 85px;
+        font-size: 20px;
+    }
+    .j2{
+        top: 270px;
+        left: 353px;
+        font-size: 25px;
+    }
+    .j3{
+        top: 235px;
+        left: 615px;
+        font-size: 25px;
+    }
+    h2{
+        top: -20px;
+        font-size: 40px
+    }
+    .background{
+        height: 80px;
+        top: 110px;
+    }
+    .lieu{
+        background: radial-gradient(225.72% 122.87% at 47.48% 29.89%, #F5BA30 37.43%, rgba(245, 186, 48, 0.00) 100%);
+        width: 400px;
+        height: 350px;
+        position: relative;
+        top: 30px;
+        padding-left: 10px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    .montpellier, .paris, .rennes{
+        font-size: 20px;
+    }
+    .carte{
+        width: 400px;
+        position: absolute;
+        left: 300px;
+        top: 25px;
+        filter: drop-shadow(0px 7px 8px #000000);
+        -webkit-filter: drop-shadow(0px 7px 8px #000000);
+    }
+    .texte{
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .danseurD{
+        grid-area: Rdescript;
+        position: absolute;
+        width: 200px;
+        left:565px;
+        top: 0;
+    }
+    .danseurG{
+        position: absolute;
+        width: 180px;
+        left: 5px;
+        top: 0;
+    }
+    .home, .cours{
+        font-size: 20px;
+        top: 40px;
+    }
+    .home{
+        left: 110px;
+        /* top: 25px; */
+    }
+    .cours{
+        left: 50px;
+        /* top: 25px; */
     }
 }

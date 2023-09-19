@@ -1,9 +1,23 @@
-@media (min-width: 400px) and (max-width: 600px){
+@media (min-width: 400px) and (max-width: 450px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 20% 35% 35% 10%;
+        grid-template-areas: 
+        'header header header'
+        'debout debout debout'
+        'sol sol sol'
+        'l_footer footer r_footer';
+    }
+    body{
+        height: 100vh;
+    } 
     .banniere{
         position: relative;
         top: 30px;
         left: 130px;
         font-size: 80px;
+        width: 265px;
     }
     .PersoDebout{
         width: 108px;
@@ -24,26 +38,112 @@
         margin: 0;
     }
     .jour, .tarif{
-        font-size: 19px;
-        }
-        .jour{
-            margin-left: 30px;
-            margin-top: 5px;
-        }
-        .breakdance{
-            width: 320px;
-            height: 200px;
-            bottom: -80px;
-            left: 30px;
-            /* display: flex;
-            align-items: center;  */
-        }
-        .PersoSol{
-            width: 189px;
-            height: 312px;
-            right: -70px;
-            top: -150px; 
-        }
+    font-size: 19px;
+    }
+    .jour{
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    .breakdance{
+        width: 320px;
+        height: 200px;
+        bottom: -80px;
+        left: 30px;
+        
+    }
+    .PersoSol{
+        width: 189px;
+        height: 312px;
+        right: -70px;
+        top: -150px; 
+    }
+    }
+@media (min-width: 700px) and (max-width: 1000px){
+    .banniere{
+        position: relative;
+        top: 30px;
+        right: -300px;
+        font-size: 120px;
+        width: 265px;
+    }
+    .debout{
+        width: 520px;
+        height: 200px;
+        left: 100px;
+        top: 80px;
+        display: flex;
+        align-items: center;
+    }
+    .PersoDebout{
+        width: 200px;
+        height: 401px;
+        left: -50px;
+        top: -190px;
+    }
+    .titre{
+        font-size: 40px;
+        margin: 0px 10% 5px auto;
+    }
+    .jour{
+        margin: 0px 8% 15px auto;
+        font-size: 20px;
+    }
+    .prix{
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .tarif{
+        display: flex;
+        margin-right:80px;
+        margin-left: 80px;
+        justify-content: start;
+        font-size: 20px;
+    }
+    .promo{
+        font-size: 15px;
+    }
+    .breakdance{
+        width: 520px;
+        height: 200px;
+        bottom: -140px;
+        right: -120px; 
+    }
+    .PersoSol{
+        width: 354px;
+        height: 376px;
+        right: -120px;
+        top:-250px;    
+    }
+    .titre1{
+        font-size: 40px;
+        margin: 0px 25% 5px auto;
+    }
+    .jour1{
+        margin: 0px 17% 15px auto;
+        font-size: 20px;
+    }
+    .prix1{
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .tarif1{
+        display: flex;
+        margin-right:160px;
+        margin-left: 20px;
+        justify-content: start;
+        font-size: 20px;
+    }
+    .promo1{
+        font-size: 15px;
+    }
+    .spectacle{
+        font-size: 30px;
+    }
+    .home{
+        font-size: 30px;
+    }
+   
+}
 @media screen and (min-width: 1400px){
     .grid-container{
         display: grid;

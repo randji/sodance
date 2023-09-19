@@ -81,16 +81,16 @@ header{
     margin: 0;
     padding: 0;
 }
-.titre{
+.titre, .titre1{
     font-size: 20px;
     margin: 5px 25% 5px auto;
     
 }
-.jour{
+.jour, .jour1{
     margin: 0px 8% 15px auto;
     font-size: 15px;
 }
-.prix{
+.prix, .prix1{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -98,7 +98,7 @@ header{
     margin: 0;
     align-items: center;
 }
-.tarif{
+.tarif, .tarif1{
     display: flex;
     margin-right: 15%;
     margin-left: 5px;

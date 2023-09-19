@@ -26,7 +26,7 @@ header{
 body{
     background: radial-gradient(290% 290.78% at 50.00% 48.09%, #010101 0%, rgba(1, 1, 1, 0.00) 100%);
     margin: 0;
-    height: 667px;
+    height: 100vh;
 }
 
 .banniere{
@@ -48,7 +48,6 @@ body{
    left: -105px;
    opacity: 0;
    animation: perso 1.5s ease-out forwards;
-
 }
 
 main{
@@ -95,8 +94,8 @@ main{
     position: absolute;
     transform: rotate(-90deg);
     font-size: 20px;
-    right:89px;
-    top: 75%;
+    right:100px;
+    top: 500px;
     opacity: 0;
     animation: titre 3s ease-out 7.8s forwards;
     margin: 0;
@@ -113,7 +112,6 @@ main{
 
 .house, .mobile, .mail{
     padding: 10px 5px;
-    
 }
 
 /* animation icone */
@@ -287,7 +285,7 @@ main{
     grid-area: r_footer;
     position: relative;
     text-decoration: none;
-    top: 20px;
+    top: 30px;
     left: 25px;
     width: 55px;
     height: 20px;
@@ -308,7 +306,7 @@ main{
     text-decoration: none;
     width: 100px;
     height: 20px;
-    top: 20px;
+    top: 30px;
     left: 5px;
     font-size: 17px;
     opacity: 0;

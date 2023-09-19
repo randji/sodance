@@ -1,14 +1,89 @@
-@media (min-width: 400px) and (max-width: 700px){
-
-}
-
-
-@media screen and (min-width: 700px ) {
+@media screen and (min-width: 400px) and (max-width: 700px){
+    body{
+        height: 915px;
+        }
     .perso2{
-        width: 500px;
+        width: 430px;
+        left: -130px;
+    }
+    .asso{
+        top: 700px;
+        right:95px;
+        font-size: 25px;
+    }
+    .contact, .social{
+        margin-bottom: 200px;
+    }
+    .evenement, .cours{
+        top: 10px;
+    }
+    .evenement{
+        left: 8px;
+    }
+    .cours{
+        left: 35px;
     }
 }
 
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .banniere{
+        font-size: 90px;
+        position: relative;
+        top: -15px;
+    }
+    
+    .perso2{
+        width: 500px;
+        left: -130px;
+    }
+    .asso{
+        top: 800px;
+        right:300px;
+        font-size: 25px;
+    }
+    .contact, .social{
+        margin-bottom: 150px;
+    }
+    .house{
+        width: 70px;
+    }
+    .mail{
+        width: 50px;
+        top: 15px;
+        left: 3px;
+    }
+    .mobile{
+        width: 60px;
+       
+    }
+    .house, .mobile, .mail{
+        padding: 20px 40px;
+    }
+    .facebook, .twitter, .instagram{
+        width: 45px;
+    }
+    .instagram{
+        bottom: -25px;
+        right: 45px;
+    }
+    .twitter{
+        bottom: 44px;
+        right: 45px;
+    }
+    .facebook{
+        bottom: 115px;
+        right: 45px;
+    }
+    .cours, .evenement{
+        font-size: 25px;
+    }
+    .cours{
+        left: 65px;
+    }
+    .evenement{
+        left: 30px;
+    }
+}
 @media screen and (min-width: 1000px) {
     .grid-container{
         display: grid;
@@ -64,11 +139,10 @@
         bottom: 0;
     }
     .asso{
-
         rotate: 90deg;
         font-size: 30px;
         margin: 0;
-        position: absolute;
+        top: -50px;
         right: 0;
         justify-content: center;
         align-items: end;

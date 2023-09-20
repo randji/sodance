@@ -1,6 +1,6 @@
 @media screen and (min-width: 400px) and (max-width: 700px){
     body{
-        height: 915px;
+        height: 100vh;
         }
     .perso2{
         width: 430px;
@@ -37,8 +37,8 @@
         left: -130px;
     }
     .asso{
-        top: 800px;
-        right:300px;
+        top: 79%;
+        right:290px;
         font-size: 25px;
     }
     .contact, .social{
@@ -78,13 +78,15 @@
         font-size: 25px;
     }
     .cours{
+        top: 40px;
         left: 65px;
     }
     .evenement{
+        top: 40px;
         left: 30px;
     }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) and (max-width: 1900px) {
     .grid-container{
         display: grid;
         grid-template-columns: 10% 70% 20%;
@@ -99,7 +101,9 @@
     }
     .banniere{
         font-size: 120px;
-        justify-content: end;
+        position: relative;
+        left: 250px;
+        top: -40px;
     }
     .social{
         grid-area: social;
@@ -156,11 +160,12 @@
         position: absolute;
         width: 600px;
         top: -300px;
+        left: -130px;
     }
    
     .colonne2{
         position: absolute;
-        width: 5px;
+        width: 3.75px;
         height: 50px;
         background-color: white;
         bottom: 250px;
@@ -185,7 +190,7 @@
     
     .colonne3{
         position: absolute;
-        width: 5px;
+        width: 4px;
         height: 60px;
         background-color: white;
         bottom: 150px;

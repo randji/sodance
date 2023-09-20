@@ -86,7 +86,10 @@ main{
     right: 40%;
     animation:  4s ease-out 3s forwards expand3;
 }
-
+.titreAsso{
+    display: grid;
+    grid-area: main;
+}
 .asso{
     color: white;
     font-family: 'Permanent Marker', cursive;

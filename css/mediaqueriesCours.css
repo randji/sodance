@@ -61,8 +61,8 @@
 @media (min-width: 700px) and (max-width: 1000px){
     .banniere{
         position: relative;
-        top: 30px;
-        right: -300px;
+        top: 0px;
+        right: -270px;
         font-size: 120px;
         width: 265px;
     }
@@ -111,7 +111,7 @@
     .PersoSol{
         width: 354px;
         height: 376px;
-        right: -120px;
+        right: -80px;
         top:-250px;    
     }
     .titre1{
@@ -144,7 +144,7 @@
     }
    
 }
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1000px) and (max-width: 1900px){
     .grid-container{
         display: grid;
         grid-template-columns: 33% 33% 33%;
@@ -164,7 +164,7 @@
     position: relative;
     right: 0;
     bottom: 0;
-    font-size: 120px;
+    font-size: 150px;
    }
    .social{
     grid-area: R_header;
@@ -178,14 +178,14 @@
     margin: 5px;   
     }
     .PersoDebout{
-        width: 178px;
-        height: 461px;
+        width: 148px;
+        height: 431px;
         left: -30px;
-        top: -250px;
+        top: -210px;
     }
     .debout{
-        width: 700px;
-        height: 250px;
+        width: 600px;
+        height: 200px;
         left: 90px;
         top: 80px; 
     }
@@ -196,22 +196,53 @@
         top: -290px; 
     }
     .breakdance{
-        width: 700px;
-        height: 250px;
+        width: 600px;
+        height: 200px;
         bottom: -80px;
         left: 50%; 
     }
     .titre{
-        font-size: 50px;
+        font-size: 40px;
     }
     .jour, .tarif{
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .jour{
+        margin: 5px 15% 5px auto;
+    }
+    .prix{
+        padding-top: 30px;
+        font-size: 20px;
     }
     .tarif{
-        margin-right: 40%;
+        display: flex;
+        margin-right:80px;
+        margin-left: 80px;
+        justify-content: start;
+        font-size: 20px;
     }
-    .jour{
-        margin: 0px 15% 50px auto;
+    .titre1{
+        font-size: 40px;
+        margin-right: 180px;
+    }
+    .jour1, .tarif1{
+        font-size: 25px;
+    }
+
+    .jour1{
+        margin: 5px 15% 5px auto;
+    }
+    .prix1{
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .tarif1{
+        display: flex;
+        margin-right:80px;
+        margin-left: 80px;
+        justify-content: start;
+        font-size: 20px;
     }
     .home{
         right: 80%;
@@ -222,7 +253,7 @@
     }
     
 }
-@media (min-width: 1000px) and (max-width: 1400px){
+@media (min-width: 1900px) and (max-width: 1990px){
     .grid-container{
         display: grid;
         grid-template-columns: 33% 33% 33%;

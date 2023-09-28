@@ -44,6 +44,15 @@
         margin-left: 30px;
         margin-top: 5px;
     }
+    .titre1{
+        font-size: 30px;
+    }
+    .jour1, .tarif1{
+    font-size: 19px;
+    }
+    .jour1{
+        margin-left: 30px;
+    }
     .breakdance{
         width: 320px;
         height: 200px;

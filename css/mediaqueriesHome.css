@@ -166,11 +166,11 @@
    
     .colonne2{
         position: absolute;
-        width: 3.75px;
+        width: 3.5px;
         height: 50px;
         background-color: white;
         bottom: 250px;
-        right: 0;
+        right: -32px;
         opacity: 0;
         
         animation:  4s ease-out 3s forwards expand4;

@@ -21,7 +21,7 @@
     </header>
 
     <main>
-        <img class="perso2" src="img/perso2.png" alt="danseur" srcset="">
+        <img class="perso2" src="IMG/perso.png" alt="danseur" srcset="">
         <div class="colonne1">
             <div class="colonne2"></div>
             <div class="colonne3"></div>
@@ -35,19 +35,19 @@
     <aside class="contact">
         <div class="localisation"> 
             <div class="inner">
-                <img class="house" src="img/iconeMaison.png" alt="maison" srcset="" >
+                <img class="house" src="IMG/maison.png" alt="maison" srcset="" >
                 <a class="adresse" href="https://goo.gl/maps/iiRCTUQ8m38di4e17" target="_blank" rel="noopener noreferrer">13bis rue ambroise paré <br>75010 Paris</a>
             </div>
         </div>
         <div class="tel">
             <div class="inner">
-                <img class="mobile" src="img/iconePortable.png" alt="portable" srcset="">
+                <img class="mobile" src="IMG/portable.png" alt="portable" srcset="">
                 <a class="numero" href="tel:+0102054630">01 02 05 46 30</a>
             </div>
         </div> 
         <div class="email">
             <div class="inner">
-                <img class="mail" src="img/iconeMail.png" alt="mail" srcset="">
+                <img class="mail" src="IMG/mail.png" alt="mail" srcset="">
                 <a class="adrmail" href="mailto:sodanse@yahoo.fr">sodanse@yahoo.fr</a>
             </div>
         </div>     
@@ -55,13 +55,13 @@
 
     <aside class="social">
         <a href="https://fr-fr.facebook.com/" target="_blank" rel="noopener noreferrer">
-            <img class="facebook" src="img/iconeFacebook.png" alt="facebook">
+            <img class="facebook" src="IMG/facebook.png" alt="facebook">
         </a>
         <a href="https://twitter.com/twitterfrance" target="_blank" rel="noopener noreferrer">
-            <img class="twitter" src="img/iconTwitter.png" alt="twitter" srcset="">
+            <img class="twitter" src="IMG/twitter.png" alt="twitter" srcset="">
         </a>
         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-            <img class="instagram" src="img/iconeInstagram.png" alt="instagram">
+            <img class="instagram" src="IMG/instagram.png" alt="instagram">
         </a>
     </aside>
     

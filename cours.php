@@ -17,13 +17,13 @@
     </header>
     <div class="social">
         <a href="https://fr-fr.facebook.com/" target="_blank" rel="noopener noreferrer">
-            <img class="facebook" src="img/iconeFacebook.png" alt="facebook">
+            <img class="facebook" src="IMG/facebook.png" alt="facebook">
         </a>
         <a href="https://twitter.com/twitterfrance" target="_blank" rel="noopener noreferrer">
-            <img class="twitter" src="img/iconTwitter.png" alt="twitter" srcset="">
+            <img class="twitter" src="IMG/twitter.png" alt="twitter" srcset="">
         </a>
         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-            <img class="instagram" src="img/iconeInstagram.png" alt="instagram">
+            <img class="instagram" src="IMG/instagram.png" alt="instagram">
         </a>
     </div>
    

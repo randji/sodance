@@ -7,15 +7,15 @@
         left: -130px;
     }
     .asso{
-        top: 700px;
-        right:95px;
+        top: 75%;
+        right:22%;
         font-size: 25px;
     }
     .contact, .social{
         margin-bottom: 200px;
     }
     .evenement, .cours{
-        top: 10px;
+        top: 60%;
     }
     .evenement{
         left: 8px;
@@ -37,8 +37,8 @@
         left: -130px;
     }
     .asso{
-        top: 79%;
-        right:290px;
+        top: 75%;
+        right:42%;
         font-size: 25px;
     }
     .contact, .social{
@@ -76,6 +76,7 @@
     }
     .cours, .evenement{
         font-size: 25px;
+        top: 60%;
     }
     .cours{
         top: 40px;

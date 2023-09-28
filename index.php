@@ -65,10 +65,10 @@
         </a>
     </aside>
     
-        <a class="evenement" href="evenement.html">EVENEMENT</a>
+        <a class="evenement" href="evenement.php">EVENEMENT</a>
     
     
-        <a class="cours" href="cours.html">COURS</a>
+        <a class="cours" href="cours.php">COURS</a>
     
 </body>
 </html>

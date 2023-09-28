@@ -49,8 +49,8 @@
         </div>
     
     
-        <a class="spectacle" href="evenement.html">EVENEMENT</a>
-        <a class="home" href="index.html">ACCEUIL</a>
+        <a class="spectacle" href="evenement.php">EVENEMENT</a>
+        <a class="home" href="index.php">ACCEUIL</a>
     
 </body>
 </html>
